@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>Cyno </title>		
+		<link rel="icon" type="image/x-icon" href="./assets/cynoFavi.png">
+	</head>
+	
+	<body>
+		<form name="CynoPet"> 
+		</form>
+	
+		<div class="titleText">
+			<h1>Keep Cyno happy</h1>
+ 		</div>
+
+ 		<div class="moneyCounter">
+ 			<p>Mora <output class="MoneyValue" id="moneyvalue" ></output></p>
+		</div>
+		<div class="structuur">
+
+			<img id="cynoPic"  src="./images/CynoPet.png" alt="Cyno" class="cynoPic">
+
+			<div class="itemWindow">
+				<h2><br/>-- Item Shop --</h2>
+				<p>
+					<button type="button" id="btn_item1" >Koop Adeptus Temptation</button><br/>
+					<small>Prijs: 50 mora</small><br/>
+					<small>Als uitgehongerd, Hersteld Cyno.</small><br/>
+					<br/>
+					<button type="button" id="btn_item2" >Koop een wapen</button><br/>
+					<small>Prijs: 75 mora</small><br/>
+					<small>Een speer om het trainen makkelijk te maken.</small><br/><br/>
+					<br/>
+					<button type="button" id="btn_item3" >Koop antidepressiva</button><br/>
+					<small>Prijs: 100 mora</small><br/>
+					<small>Als depresief, Maakt Cyno volledig blij.</small><br/>
+					<br/>
+					<button type="button" id="btn_item4" >koop elementalburst</button><br/>
+					<small>Price: 300 mora</small><br/>
+					<small>Als de optimale training gebruik je Elementalburst .</small><br/><br/>
+				</p>
+			</div>
+		</div>
+
+ 		<div class="statHonger">
+ 				Honger: <progress class="HongerBar" id="statbar_honger" max="100" value="100">
+ 						</progress>
+					</div>
+
+ 		<div class="statTraining">
+ 				Training:	<progress class="TrainingBar" id="statbar_training" max="100" value="100" >
+ 							</progress>
+						</div>
+
+ 		<div class="statVrolijk">
+ 				Vrolijk:	<progress class="VrolijkBar" id="statbar_vrolijk" max="100" value="100">
+ 						</progress>
+					</div>
+
+		<div class= buttons>
+ 				<button type="button" id="btn_honger" >Voed</button>
+ 				<button type="button" id="btn_training" >Train</button>
+ 				<button type="button" id="btn_vrolijk" >Speel</button>
+ 		</div>
+
+			<div class="uitleg">
+				<p><small>
+					Hoe speel je dit spel:<br/>Klik op de knoppen om Cyno gelukkig te houden.
+					<br/>als de staven op leeg zijn kan je ze niet meer vullen!
+					<br/>Als ze alle 3 op 0 staan is het, GAME OVER!<br/>
+				</small></p>
+			</div>
+		
+		<script src="script.js"></script>
+		<footer>
+			<p> Copyright © COGNOSPHERE. All Rights Reserved. </p>
+		</footer>
+	</body>
+	</html>
+
+	<!-- Images bron = COGNOSPHERE.(2018).Genshin Impact.(version 3.1)[videogame].Cai Haoyu. -->
