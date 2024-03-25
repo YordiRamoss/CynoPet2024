@@ -133,7 +133,7 @@ function elementalBurst() {
 		clearInterval(klok2);
 		clearInterval(klok3);
 		clearInterval(moneyklok);
-		cynoPic.src = "images/cynoelEmentalBurst.png"
+		cynoPic.src = "images/cynoElementalBurst.png"
 		alert("Gefeliciteerd! jij hebt Cyno tot de krijger gemaakt die hij is!");
 	}
 	if (elementalBurst_win = true) elementalBurstAudio.play()
