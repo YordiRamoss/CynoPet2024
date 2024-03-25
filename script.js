@@ -126,8 +126,8 @@ function koopAntidepressivaEffect() {
 }
 
 function elementalBurst() {
-	if (elementalBurst_win == false && money >= 30) {
-		money -= 30;
+	if (elementalBurst_win == false && money >= 300) {
+		money -= 300;
 		elementalBurst_win = true;
 		clearInterval(klok1);
 		clearInterval(klok2);
