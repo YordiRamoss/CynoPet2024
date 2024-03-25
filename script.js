@@ -126,8 +126,8 @@ function koopAntidepressivaEffect() {
 }
 
 function elementalBurst() {
-	if (elementalBurst_win == false && money >= 300) {
-		money -= 300;
+	if (elementalBurst_win == false && money >= 30) {
+		money -= 30;
 		elementalBurst_win = true;
 		clearInterval(klok1);
 		clearInterval(klok2);
@@ -135,10 +135,9 @@ function elementalBurst() {
 		clearInterval(moneyklok);
 		cynoPic.src = "images/cynoElementalBurst.png"
 		alert("Gefeliciteerd! jij hebt Cyno tot de krijger gemaakt die hij is!");
+		elementalBurstAudio.play()
 	}
-	if (elementalBurst_win = true) elementalBurstAudio.play()
 }
-
 // Deplete functions
 
 function depleteH() {
