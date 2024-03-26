@@ -70,7 +70,7 @@ function fillTraining() {
 }
 
 function fillVrolijk() {
-	if (vrolijk <= 99 && training != 0) {
+	if (vrolijk <= 99 && vrolijk != 0) {
 		vrolijk += 2;
 		document.querySelector("statbar_vrolijk").value = vrolijk;
 	}
